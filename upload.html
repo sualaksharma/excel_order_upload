@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracking System</title>
+    <!-- Include CSS frameworks or custom styles here -->
+</head>
+<body>
+    <!-- Your UI elements go here -->
+    <h1>Tracking System</h1>
+
+    <!-- Add the Excel file upload form here -->
+    <form id="excel-upload-form" enctype="multipart/form-data" method="post" action="index.php">
+        <label for="excel-file">Upload Excel File:</label>
+        <input type="file" id="excel-file" name="excel-file" accept=".xlsx, .xls" required>
+        <button type="submit">Track AWBs</button>
+    </form>
+
+    <!-- Display tracking information if needed -->
+    <div id="tracking-info">
+        <!-- Tracking updates will be displayed here -->
+    </div>
+</body>
+</html>
